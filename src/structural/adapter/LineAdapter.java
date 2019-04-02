@@ -1,9 +1,9 @@
 package structural.adapter;
 
 public class LineAdapter implements Shape {
-    Line adaptee;
+    private Line adaptee;
 
-    public LineAdapter(Line adaptee) {
+    LineAdapter(Line adaptee) {
         this.adaptee = adaptee;
     }
 

@@ -1,4 +1,4 @@
 package creational.abstractfactory;
 
-public class EmberMMU extends MMU {
+class EmberMMU extends MMU {
 }

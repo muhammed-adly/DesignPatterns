@@ -1,17 +1,17 @@
 package behavioral.command;
 
-public class Button {
+class Button {
     private ICommand command;
 
-    public Button() {
+    Button() {
 
     }
 
-    public void setCommand(ICommand command) {
+    void setCommand(ICommand command) {
         this.command = command;
     }
 
-    public void onPress() {
+    void onPress() {
         this.command.execute();
     }
 }

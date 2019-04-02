@@ -1,4 +1,4 @@
 package creational.abstractfactory;
 
-public class EmberCPU extends CPU {
+class EmberCPU extends CPU {
 }

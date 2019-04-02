@@ -2,9 +2,9 @@ package behavioral.command;
 
 public class MoveDownCommand implements ICommand {
 
-    GameCharacter character;
+    private GameCharacter character;
 
-    public MoveDownCommand(GameCharacter charecter) {
+    MoveDownCommand(GameCharacter charecter) {
         this.character = charecter;
     }
 

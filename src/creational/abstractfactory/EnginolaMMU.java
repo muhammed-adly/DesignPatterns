@@ -1,4 +1,4 @@
 package creational.abstractfactory;
 
-public class EnginolaMMU extends MMU {
+class EnginolaMMU extends MMU {
 }

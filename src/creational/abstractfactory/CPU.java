@@ -1,4 +1,4 @@
 package creational.abstractfactory;
 
-public class CPU {
+class CPU {
 }

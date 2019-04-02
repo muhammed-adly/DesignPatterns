@@ -1,7 +1,7 @@
 package structural.decorator;
 
 public class BorderDecorator extends Decorator {
-    public BorderDecorator(Widget widget) {
+    BorderDecorator(Widget widget) {
         super(widget);
     }
 

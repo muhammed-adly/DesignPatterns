@@ -3,16 +3,16 @@ package behavioral.command;
 public class GameCharacter {
     private int latitude, logitude;
 
-    public GameCharacter() {
+    GameCharacter() {
         latitude = 0; // Y
         logitude = 0; // X
     }
 
-    public int getLatitude() {
+    int getLatitude() {
         return latitude;
     }
 
-    public void setLatitude(int latitude) {
+    void setLatitude(int latitude) {
         this.latitude = latitude;
     }
 

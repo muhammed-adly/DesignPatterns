@@ -2,9 +2,9 @@ package structural.adapter;
 
 public class RectangleAdapter implements Shape {
 
-    Rectangle adaptee;
+    private Rectangle adaptee;
 
-    public RectangleAdapter(Rectangle adaptee) {
+    RectangleAdapter(Rectangle adaptee) {
         this.adaptee = adaptee;
     }
 

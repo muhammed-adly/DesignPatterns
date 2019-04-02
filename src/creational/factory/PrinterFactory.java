@@ -1,8 +1,8 @@
 package creational.factory;
 
-public class PrinterFactory {
+class PrinterFactory {
 
-    public static IPrinter getPrinterType(String type) {
+    static IPrinter getPrinterType(String type) {
         switch (type) {
             case "laser":
                 return new LaserPrinter();
