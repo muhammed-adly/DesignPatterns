@@ -5,11 +5,11 @@ import java.util.Queue;
 
 public class Client implements IObserver {
 
-    public Queue<String> messageQueue;
+    private Queue<String> messageQueue;
     private ISubject messageServer;
-    String id;
+    private String id;
 
-    public Client(String id) {
+    Client(String id) {
         this.id = id;
         messageQueue = new LinkedList<>();
     }
@@ -24,7 +24,7 @@ public class Client implements IObserver {
         messageServer = subject;
     }
 
-    public void onConnect() {
+    void onConnect() {
         if (!messageQueue.isEmpty()) {
 
             for (String s : messageQueue) {
